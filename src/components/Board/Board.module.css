@@ -1,0 +1,10 @@
+.container {
+  @apply w-full border-2 border-black m-16
+}
+
+.container {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: repeat(8, auto);
+  grid-auto-flow: column;
+}
